@@ -3,21 +3,21 @@
 
  
 
-  <remote  name="github"
-           fetch="https://github.com/" />
-           
+  <remote name="xda"
+           fetch=".." />
 
-  <remote  name="aosp"
+  <remote name="github"
+           fetch="https://github.com/" />
+
+  <remote name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <remote  name="rom"
+  <remote name="rom"
            fetch="https://github.com/ROM-ANDROID" />
 
-  <default revision="refs/tags/android-4.3.1_r1"
+  <default revision="refs/tags/android-4.3_r3.1"
            remote="aosp"
-           sync-c="true"
-           sync-f="true"
            sync-j="4" />
 
 
