@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="xda"
-           fetch=".." />
+ 
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -25,10 +24,10 @@
   <project path="manifest" name="platfrom_manifest" remote="rom" revision="master" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.3" />
+  <project path="bionic" name="platform_bionic" remote="rom" revision="master" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <project path="bootable/recovery" name="platform_bootable_recoverery" remote="rom" revision="master" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-4.3" />
   <project path="developers/build" name="platform/developers/build" />
