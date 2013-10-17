@@ -382,6 +382,6 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/ROM" name="platform_vendor_ROM" remote="rom" revision="master" />
+  <project path="android" name="vendor_android" remote="rom" revision="master" />
   <project path="packages/apps/MonthCalendarWidget" name="platform_packages_apps_MonthCalendarWidget" remote="rom" revision="master" />
 </manifest>
