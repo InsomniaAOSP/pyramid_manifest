@@ -18,7 +18,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="rom" revision="master" />
+  <project path="build" name="platform_build" remote="rom" revision="master" groups="pdk" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
