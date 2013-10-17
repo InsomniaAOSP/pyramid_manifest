@@ -29,7 +29,7 @@
   <project path="bionic" name="platform_bionic" remote="rom" revision="master" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform_bootable_recoverery" remote="rom" revision="master" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="rom" revision="master" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform_dalvik" remote="rom" revision="master" />
   <project path="developers/build" name="platform/developers/build" />
