@@ -21,7 +21,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="manifest" name="platform_manifest" remote="rom" revision="master" />
+  <project path="manifest" name="manifest" remote="rom" revision="master" />
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="rom" revision="master" />
