@@ -260,7 +260,7 @@
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="rom" revision="master" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="rom" revision="master" />
   <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" remote="rom" revision="master" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" remote="rom" revision="master" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="rom" revision="master" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
