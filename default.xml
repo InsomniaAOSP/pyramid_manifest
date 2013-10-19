@@ -250,14 +250,6 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
-
-
-
-
-
-
-
-
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="platform_libcore" remote="android" revision="master" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
