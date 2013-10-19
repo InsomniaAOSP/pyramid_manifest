@@ -373,7 +373,7 @@
   <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="android" revision="master" />
     
   <project path="insomnia" name="insomnia" remote="android" revision="master" > 
-    <copyfile src="build.sh" dest="rom-build.sh" />
+    <copyfile dest="rom-build.sh" src="build.sh"/>
   </project>
   
 </manifest>
