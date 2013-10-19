@@ -11,9 +11,11 @@
   <remote name="android"
           fetch="https://github.com/InsomniaAOSP/" />
           
-  <default revision="refs/tags/android-4.3_r3.1"
+  <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
-           sync-j="4" />      
+           sync-c="true"
+           sync-f="true"
+           sync-j="4" />    
  
 
   <project path="build" name="platform_build" remote="android" revision="master" >
