@@ -33,7 +33,8 @@
   </project>
   
   <project path="manifest" name="platform_manifest" remote="android" revision="master" />
-
+  
+  <project path="vendor/insomnia" name="vendor_insomnia" remote="android" revision="master" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="android" revision="master" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -392,6 +393,6 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="android" revision="master" />
+ 
   
 </manifest>
