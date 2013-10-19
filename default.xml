@@ -10,7 +10,7 @@
   <remote name="github"
           fetch="https://github.com/" />
           
-  <remote name="ia"
+  <remote name="android"
           fetch="https://github.com/InsomniaAOSP/"
           review="" />
  
@@ -25,7 +25,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="manifest" name="manifest" remote="androd" revision="master" />
+  <project path="manifest" name="manifest" remote="android" revision="master" />
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform/bionic" />
