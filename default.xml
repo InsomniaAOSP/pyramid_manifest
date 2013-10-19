@@ -18,11 +18,10 @@
           fetch="https://github.com/CyanogenMod"
           review="review.cyanogenmod.com" />
           
-        
-  <default revision="cm-10.2"
-          sync-c="true"
-          sync-j="12"
-          remote="cm" />
+  <default revision="refs/tags/android-4.3_r3.1"
+           remote="aosp"
+           sync-j="4" />      
+ 
 
   <project path="build" name="platform_build" remote="android" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
