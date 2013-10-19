@@ -394,5 +394,4 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="android" revision="master" />
   
-
 </manifest>
