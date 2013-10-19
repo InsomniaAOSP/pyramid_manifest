@@ -13,15 +13,29 @@
            remote="aosp"
            sync-j="4" />   
  
-
+ 
+ 
+  <project path="manifest" name="platform_manifest" remote="android" revision="master" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="android" revision="master" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="android" revision="master" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="android" revision="master" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="android" revision="master" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="android" revision="master" />
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="android" revision="master" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="android" revision="master" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="android" revision="master" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="android" revision="master" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="android" revision="master" />
+  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="android" revision="master" />
+  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="android" revision="master" />
+  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="android" revision="master" />
+  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="android" revision="master" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="android" revision="master" />
 
 
   <project path="build" name="platform_build" remote="android" revision="master" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  
-  <project path="manifest" name="platform_manifest" remote="android" revision="master" />
-
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="android" revision="master" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -190,7 +204,6 @@
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
- 
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
@@ -240,21 +253,7 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
 
 
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="android" revision="master" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="android" revision="master" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="android" revision="master" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="android" revision="master" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="android" revision="master" />
-  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="android" revision="master" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="android" revision="master" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="android" revision="master" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="android" revision="master" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="android" revision="master" />
-  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="android" revision="master" />
-  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="android" revision="master" />
-  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="android" revision="master" />
-  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="android" revision="master" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="android" revision="master" />
+
 
 
 
