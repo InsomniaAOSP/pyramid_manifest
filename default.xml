@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com" />
 
-  <remote  name="github"
-           fetch="https://github.com"
-           review="gerrit.paranoidandroid.co" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
-  <remote  name="paranoid"
-           fetch="ssh://git@bitbucket.org/paranoidandroid/" />
-
-  <remote  name="cm"
-           fetch="git://github.com"
-	   review="review.cyanogenmod.org" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com/"
+          review="https://android-review.googlesource.com/" />
+  
+  <remote name="github"
+          fetch="https://github.com/" />
+          
+  <remote name="ia"
+          fetch="https://github.com/InsomniaAOSP/"
+          review="" />
+ 
 
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
