@@ -15,11 +15,15 @@
   <remote name="android"
           fetch="https://github.com/InsomniaAOSP/" />
           
+  <remote name="cm"
+          fetch="git://github.com"
+          review="review.cyanogenmod.org" />
+
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-c="true"
            sync-f="true"
-           sync-j="4" />    
+           sync-j="4" />   
  
 
 
@@ -196,6 +200,8 @@
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-10.2"/>
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="cm" revision="cm-10.2"/>
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
