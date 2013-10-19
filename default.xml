@@ -24,7 +24,7 @@
 
 
 
-  <project path="build" name="platform_build" remote="android" revision="master" groups="pdk" />
+  <project path="build" name="platform_build" remote="android" revision="master" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
