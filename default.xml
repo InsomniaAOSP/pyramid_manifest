@@ -24,7 +24,7 @@
   <project path="build" name="platform_build" remote="android" revision="master" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
+  <project path="abi/cpp" name="android/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="android" revision="master" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
