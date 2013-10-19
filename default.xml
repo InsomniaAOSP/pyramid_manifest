@@ -4,11 +4,9 @@
   <remote name="aosp"
           fetch="https://android.googlesource.com/" />
          
-          
   <remote name="android"
           fetch="https://github.com/InsomniaAOSP/" />
           
-  
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-c="true"
