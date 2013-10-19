@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
-
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/" />
@@ -11,10 +9,9 @@
           fetch="https://github.com/" />
           
   <remote name="android"
-          fetch="https://github.com/InsomniaAOSP/"
-          review="" />
+          fetch="https://github.com/InsomniaAOSP/" />
+        
  
-
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-c="true"
@@ -377,8 +374,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/ROM" name="platform_vendor_ROM" remote="android" revision="master" />
 
-
-     
-  </project>
 
 </manifest>
