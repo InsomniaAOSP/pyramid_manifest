@@ -38,6 +38,7 @@
   
   <project path="manifest" name="platform_manifest" remote="android" revision="master" />
 
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="android" revision="master" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
