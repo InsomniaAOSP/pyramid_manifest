@@ -373,8 +373,8 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform_system_bluetooth" remote="android" revision="master" />
-  <project path="system/core" name="platform_system_core" remote="android" revision="master"  />
-  <project path="system/extras" name="platform_system_extras" remote="android" revision="master"/>
+  <project path="system/core" name="platform_system_core" remote="android" revision="master" />
+  <project path="system/extras" name="platform_system_extras" remote="android" revision="master" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform_system_netd" remote="android" revision="master" />
   <project path="system/qcom" name="platform_system_qcom" remote="android" revision="master" />
