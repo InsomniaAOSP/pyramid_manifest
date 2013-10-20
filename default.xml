@@ -7,10 +7,6 @@
   <remote name="android"
           fetch="https://github.com/InsomniaAOSP/" />
           
-  <remote name="ir"
-          fetch="https://github.com/InsomniaROM/" />      
-  
-          
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-c="true"
@@ -50,8 +46,8 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="android" revision="master" />
   
   <!--All Supported Device Files-->
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ir" revision="master" groups="notdefault,vendor,samsung" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="ir" revision="jb43" groups="notdefault,vendor,htc" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="android" revision="master" groups="notdefault,vendor,samsung" />
+  <project path="vendor/htc" name="vendor_htc" remote="android" revision="jb43" groups="notdefault,vendor,htc" />
   <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="android" revision="master" />
   <project path="device/htc/m7-common" name="platform_device_htc_m7-common" remote="android" revision="master" />
   <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" remote="android" revision="master" />
