@@ -49,7 +49,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="android" revision="master" />
   
   <!--All Supported Device Files-->
-  <project path="vendor/htc" name="vendor_htc " remote="ProfesserHonydew" revision="cm-10.2" />
+  <project path="vendor/htc" name="vendor_htc " remote="ProfesserHoneydew" revision="cm-10.2" />
   <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="android" revision="master" />
   <project path="device/htc/m7-common" name="platform_device_htc_m7-common" remote="android" revision="master" />
   <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" remote="android" revision="master" />
