@@ -372,14 +372,14 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="system/bluetooth" name="platform_system_bluetooth" remote="android" revision="master" />
   <project path="system/core" name="platform_system_core" remote="android" revision="master"  />
-  <project path="system/extras" name="ParanoidAndroid/android_system_extras" remote="github" revision="jb43"/>
+  <project path="system/extras" name="platform_system_extras" remote="android" revision="master"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="cm" revision="cm-10.2" groups="qcom" />
+  <project path="system/netd" name="platform_system_netd" remote="android" revision="master" />
+  <project path="system/qcom" name="platform_system_qcom" remote="android" revision="master" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="system/vold" name="platform_system_vold" remote="android" revision="master" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
