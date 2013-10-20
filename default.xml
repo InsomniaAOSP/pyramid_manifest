@@ -12,7 +12,6 @@
            sync-c="true"
            sync-f="true"
            sync-j="4" />
-    
   <!--Qcom Hardware Files-->
   <project path="manifest" name="platform_manifest" remote="android" revision="master" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="android" revision="master" />
@@ -29,22 +28,7 @@
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="android" revision="master" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="android" revision="master" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="android" revision="master" />
-  
-    <!--Hardware Files-->
-  <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="android" revision="master" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="android" revision="master" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="android" revision="master" />
-  
+
   <!--All Supported Device Files-->
   <project path="vendor/samsung" name="vendor_samsung" remote="android" revision="master" />
   <project path="vendor/htc" name="vendor_htc" remote="android" revision="jb43" />
@@ -52,10 +36,6 @@
   <project path="device/htc/m7-common" name="platform_device_htc_m7-common" remote="android" revision="master" />
   <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" remote="android" revision="master" />
   <project path="device/htc/msm8960-common" name="platform_device_htc_msm8960-common" remote="android" revision="master" />
-
-  
-  
-
   <project path="build" name="platform_build" remote="android" revision="master" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -71,16 +51,15 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/common" name="device/common" />
+  <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.2" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
-  <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/sample" name="CyanogenMod/android_device_sample" remote="cm" revision="cm-10.2" groups="device" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -93,7 +72,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="platform_external_busybox" remote="android" revision="master" />
@@ -104,12 +83,13 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  <project path="external/crda" name="CyanogenMod/android_external_crda" remote="cm" revision="cm-10.2" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform_external_doclava" remote="android" revision="master" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="android" revision="master" />
+  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -123,7 +103,7 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
+  <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" remote="cm" revision="cm-10.2" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -152,13 +132,15 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-10.2" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="cm" revision="cm-10.2" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="nxp_nfc" />
+  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" remote="cm" revision="cm-10.2" groups="nxp_nfc" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -203,6 +185,7 @@
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="cm" revision="cm-10.2" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -216,8 +199,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
-  <project path="external/skia" name="platform_external_skia" remote="android" revision="master" />
-  <project path="external/su" name="platform_external_su" remote="android" revision="master" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-10.2" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -244,15 +226,15 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="android" revision="master" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" remote="cm" revision="cm-10.2" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="android" revision="master"/>
@@ -261,50 +243,67 @@
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
+  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
+  <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="android" revision="master" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+  <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
   <project path="frameworks/rs" name="platform/frameworks/rs" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="cm" revision="cm-10.2" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+  <project path="hardware/akm" name="platform/hardware/akm" />
+  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="platform_libcore" remote="android" revision="master" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Calculator" name="platform_packages_apps_Calculator" remote="android" revision="master" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="android" revision="master" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform_packages_apps_Launcher2" remote="android" revision="master" />
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
+  <project path="packages/apps/LegacyCamera" name="CyanogenMod/android_packages_apps_LegacyCamera" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="android" revision="master" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
+  <project path="packages/apps/Nfc" name="ParanoidAndroid/android_packages_apps_Nfc" remote="github" revision="jb43-legacy" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform_packages_apps_Phone" remote="android" revision="master" />
+  <project path="packages/apps/ParanoidOTA" name="ParanoidAndroid/android_packages_apps_ParanoidOTA" remote="github" revision="jb43" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
@@ -317,19 +316,19 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="cm" revision="cm-10.2" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="android" revision="master"/>
+  <project path="packages/inputmethods/LatinIME" name="ParanoidAndroid/android_packages_inputmethods_LatinIME" remote="github" revision="jb43"/>
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="cm" revision="cm-10.2" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="cm" revision="cm-10.2" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
@@ -378,13 +377,14 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/core" name="platform_system_core" remote="android" revision="master"  />
-  <project path="system/extras" name="platform_system_extras" remote="android" revision="master" />
+  <project path="system/extras" name="ParanoidAndroid/android_system_extras" remote="github" revision="jb43"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform_system_vold" remote="android" revision="master" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -396,9 +396,9 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="android" revision="master" />
-    
+
   <project path="insomnia" name="insomnia" remote="android" revision="master" > 
     <copyfile dest="rom-build.sh" src="build.sh"/>
   </project>
-  
+
 </manifest>
