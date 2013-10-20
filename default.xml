@@ -46,10 +46,10 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="android" revision="master" />
   
   <!--All Supported Device Files-->
-  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="android" revision="master" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="android" revision="master" />
-  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="android" revision="master" />
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="android" revision="master" />
+  <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="android" revision="master" />
+  <project path="device/htc/m7-common" name="platform_device_htc_m7-common" remote="android" revision="master" />
+  <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" remote="android" revision="master" />
+  <project path="device/htc/msm8960-common" name="platform_device_htc_msm8960-common" remote="android" revision="master" />
   
 
   <project path="build" name="platform_build" remote="android" revision="master" groups="pdk" >
