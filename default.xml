@@ -31,6 +31,8 @@
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="android" revision="master" />
 
   <!--All Supported Device Files-->
+  <project path="vendor/samsung" name="vendor_samsung" remote="android" revision="master" />
+  <project path="vendor/htc" name="vendor_htc" remote="android" revision="master" />
   <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="android" revision="master" />
   <project path="device/htc/m7-common" name="platform_device_htc_m7-common" remote="android" revision="master" />
   <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" remote="android" revision="master" />
