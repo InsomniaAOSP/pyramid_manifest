@@ -7,7 +7,6 @@
   <remote name="android"
           fetch="https://github.com/InsomniaAOSP/" />
           
-          
   <remote name="ir"
           fetch="https://github.com/InsomniaROM/" />      
   
