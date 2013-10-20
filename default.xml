@@ -226,7 +226,7 @@
   <project path="external/yaffs2" name="platform_external_yaffs2" remote="android" revision="master" />
   <project path="external/zlib" name="platform_external_zlib" remote="android" revision="master" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <project path="frameworks/av" name="platform/frameworks/av" remote="android" revision="master" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="android" revision="master" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
