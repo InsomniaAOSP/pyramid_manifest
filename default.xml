@@ -13,7 +13,7 @@
            sync-f="true"
            sync-j="4" />
     
- 
+  <!--Qcom Hardware Files-->
   <project path="manifest" name="platform_manifest" remote="android" revision="master" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="android" revision="master" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="android" revision="master" />
@@ -30,7 +30,7 @@
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="android" revision="master" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="android" revision="master" />
   
-  
+  <!--Hardware Files-->
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
@@ -44,6 +44,13 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="android" revision="master" />
+  
+  <!--All Supported Device Files-->
+  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="android" revision="master" />
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="android" revision="master" />
+  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="android" revision="master" />
+  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="android" revision="master" />
+  
   
 
 
