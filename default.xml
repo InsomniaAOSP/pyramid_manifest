@@ -390,8 +390,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="android" revision="master" />
 
-  <project path="insomnia" name="insomnia" remote="android" revision="master" > 
-    <copyfile dest="rom-build.sh" src="build.sh"/>
-  </project>
+ 
 
 </manifest>
