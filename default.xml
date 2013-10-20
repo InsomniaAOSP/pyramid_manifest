@@ -394,9 +394,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="android" revision="master" />
-  <project path="external/koush/Widgets" name="platform_external_koush_Widgets" remote="android" revision="master" />
-  <project path="external/koush/Superuser" name="platform_external_koush_Superuser" remote="android" revision="master" />
-
+ 
  
 
 </manifest>
