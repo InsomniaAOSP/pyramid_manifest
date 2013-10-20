@@ -17,7 +17,7 @@
            sync-j="4" />
     
   <!--Qcom Hardware Files-->
-  <project path="manifest" name="platform_manifest" remote="ProfessorHoneydew" revision="master" />
+  <project path="manifest" name="platform_manifest" remote="android" revision="master" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="android" revision="master" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="android" revision="master" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="android" revision="master" />
@@ -49,7 +49,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="android" revision="master" />
   
   <!--All Supported Device Files-->
-  <project path="vendor/htc" name="proprietary_vendor_htc " remote="android" revision="cm-10.2" />
+  <project path="vendor/htc" name="vendor_htc " remote="ProfesserHonydew" revision="cm-10.2" />
   <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="android" revision="master" />
   <project path="device/htc/m7-common" name="platform_device_htc_m7-common" remote="android" revision="master" />
   <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" remote="android" revision="master" />
