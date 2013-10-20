@@ -30,7 +30,7 @@
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="android" revision="master" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="android" revision="master" />
   
-  <!--Hardware Files-->
+    <!--Hardware Files-->
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
@@ -51,8 +51,6 @@
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="android" revision="master" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="android" revision="master" />
   
-  
-
 
   <project path="build" name="platform_build" remote="android" revision="master" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
