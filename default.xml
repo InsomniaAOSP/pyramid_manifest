@@ -397,7 +397,6 @@
     <copyfile src="tools/build-insomnia.sh" dest="build-ck.sh" />
   </project>
   
-  
   <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="android" revision="master" />
   <!--koush Superuser Device Files-->
   <project path="external/koush/ion" name="platform_external_koush_ion" remote="android" revision="master" />
