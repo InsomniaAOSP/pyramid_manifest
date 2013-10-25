@@ -393,8 +393,8 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
-  <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="android" revision="master" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="android" revision="master" />
     <copyfile src="tools/build-insomnia.sh" dest="build-ck.sh" />
   </project>
   <!--koush Superuser Device Files-->
