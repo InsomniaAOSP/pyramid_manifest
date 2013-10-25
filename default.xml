@@ -39,8 +39,7 @@
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="dt" revision="cm-10.2" />
   <project path="vendor/htc" name="vendor_htc" remote="android" revision="master" />
   <project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="dt" revision="cm-10.2" />
-  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
- 
+  <project path="vendor/qcom/opensource/v8" name="platform_vendor_qcom_opensource_v8" remote="android" revision="master" />
  
   <project path="build" name="platform_build" remote="android" revision="master" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
