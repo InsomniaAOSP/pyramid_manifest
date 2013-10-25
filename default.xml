@@ -32,6 +32,8 @@
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="android" revision="master" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="android" revision="master" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="dt" revision="master" />
+  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="dt" revision="master" />
+
 
   <!--All Supported Device Files-->
   <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="dt" revision="cm-10.2" />
