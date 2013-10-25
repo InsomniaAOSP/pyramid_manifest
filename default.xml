@@ -31,7 +31,7 @@
   <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="android" revision="master" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="android" revision="master" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="android" revision="master" />
-  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="dt" revision="master" />
+  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="android" revision="master" />
 
 
   <!--All Supported Device Files-->
