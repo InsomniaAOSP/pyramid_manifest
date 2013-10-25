@@ -1,10 +1,10 @@
 pyramid_insomnia_manifest
 =================
 
-InsomniaROM 4.3.1 is based on (VanirAOSP,AOKP,XenonHD,ParanoidAndroid,Cyanogenmod,CodefireXexperiment,and Linaro!)
+InsomniaAOSP
 
 
-Thanks all credits to Team vanir for initial base source......
+Thanks all credits to Google source code...
 
 Getting Started
 ---------------
@@ -14,14 +14,14 @@ INITIALIZING REPOSITORY
 
 Init core trees without any device/kernel/vendor :
 
-    $  repo init -u git://github.com/InsomniaROM/insomnia_manifest.git -b jb43
+    $  repo init -u git://github.com/InsomniaAOSP/pyramid_platform_manifest.git -b master
 
 
 
 
 sync repo :
 
-    $ repo sync
+    $ repo sync -j32
 
 
 
