@@ -12,9 +12,9 @@ Getting Started
 INITIALIZING REPOSITORY
 =======================
 
-Init core trees without any device/kernel/vendor :
+Init:
 
-    $  repo init -u git://github.com/InsomniaAOSP/pyramid_platform_manifest.git -b master
+    $  repo init -u git://github.com/InsomniaAOSP/pyramid_manifest.git -b master
 
 
 
