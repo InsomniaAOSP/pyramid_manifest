@@ -1,7 +1,7 @@
-pyramid_platform_manifest
+pyramid_manifest
 =================
 
 
 
 
-repo init -u git://github.com/InsomniaAOSP/pyramid_platform_manifest.git -b master
+repo init -u git://github.com/InsomniaAOSP/pyramid_manifest.git -b master
