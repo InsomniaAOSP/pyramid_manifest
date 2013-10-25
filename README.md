@@ -1,4 +1,4 @@
-pyramid_platform_manifest
+pyramid_manifest
 =================
 
 InsomniaAOSP
