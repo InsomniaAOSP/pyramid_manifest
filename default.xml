@@ -17,7 +17,7 @@
 
 
   <!--Qcom Hardware Files-->
-  <project path="manifest" name="platform_manifest" remote="android" revision="master" />
+  <project path="platform_manifest" name="pyramid_platform_manifest" remote="android" revision="master" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="android" revision="master" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="android" revision="master" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="android" revision="master" />
@@ -38,8 +38,6 @@
   <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="dt" revision="cm-10.2" />
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="dt" revision="cm-10.2" />
   <project path="vendor/htc" name="vendor_htc" remote="android" revision="master" />
-  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="dt" revision="cm-10.2" />
-  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="dt" revision="cm-10.2" />
   <project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="dt" revision="cm-10.2" />
  
  
